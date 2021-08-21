@@ -1,0 +1,27 @@
+{
+    "name": "constup/exceptions",
+    "description": "Detailed and easy to use exception handling for PHP applications.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Constup\\Exceptions\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Constup\\Exceptions\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Constup",
+            "email": "16638173+constup@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "php": ">=7.4",
+        "phpunit/phpunit": "^9.5"
+    }
+}
